@@ -6,13 +6,20 @@ body {
 }
 
 p{
+  font-size: 14px;
+  font-family: "Rubik Semi Bold";
+  color: hsl(236, 100%, 87%);
+  
+}
+
+span{
   font-size: 18px;
   font-family: "Rubik Semi Bold";
 }
 
 h4{
   font-size: 16px;
-}
+  color: hsl(236, 100%, 87%);}
 
 @font-face {
   font-family: "Rubik";
@@ -41,7 +48,7 @@ h4{
 .timeframe-button {
   background: none;
   border: none;
-  color: #93C4FD;
+  color: hsl(235, 45%, 61%);
   /* Adjust color as needed */
   font-size: 16px;
   cursor: pointer;
@@ -54,6 +61,22 @@ h4{
   flex-direction: column;
 }
 
+.ellipsesBtn{
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  
+}
+
+.ellipsesBtn:hover{
+  color: white;
+}
+
+.timeframe-button:hover {
+  color: white;
+}
+
 .Jeremy {
   grid-column: 2;
   grid-row: 2 / span 3;
@@ -62,7 +85,8 @@ h4{
 .jeremyLogo{
   height: 79px; 
   width: 79px;
-  border-color: white;
+  border-radius: 50%; /* Make the image circular */
+  border: 4px solid white;
   margin-left: 2rem;
   margin-top: 2rem;
 }
@@ -72,9 +96,9 @@ h4{
 }
 
 .jeremyLayer1 {
-  background-color: hsl(195, 74%, 62%);
+  background-color: hsl(235, 70%, 59%);
   height: 22rem;
-  width: 15rem;
+  width: 16rem;
   border-radius: 1rem;
 }
 
@@ -83,10 +107,11 @@ h4{
   grid-row: 2 / span 3;
   background-color: hsl(235, 46%, 20%);
   height: 32rem;
-  width: 15rem;
+  width: 16rem;
   border-radius: 1rem;
   align-self: end;
 }
+
 
 .work {
   grid-column: 3;
@@ -114,12 +139,60 @@ h4{
   height: 12rem;
   width: 16rem;
   border-radius: 1rem;
+}
 
+.workLayer2:hover {
+  background-color: hsl(235, 45%, 61%);
 }
 
 .workText{
   margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column
 }
+
+.ellipses{
+  margin-left: 8rem;
+}
+
+.exerciseEllipses{
+  margin-left: 6rem;
+}
+
+.studyEllipses{
+  margin-left: 8rem;
+}
+
+.socialEllipses{
+  margin-left: 8rem;
+}
+
+.selfCareEllipses{
+  margin-left: 8rem;
+}
+
+.selfCareeEllipses{
+  left: 1rem;
+  flex: 0%;
+}
+
+.container{
+  margin: 1rem;
+}
+
+.selfCareContainer{
+  display: flex;
+  margin: 1rem;
+  text-wrap: nowrap;
+}
+
+.cardTextSpacing{
+  margin-top: 1rem;
+  font-size: 4rem;
+}
+
 
 .workIcon {
   position: absolute;
@@ -157,6 +230,10 @@ h4{
   width: 16rem;
   border-radius: 1rem;
 
+}
+
+.playLayer2:hover {
+  background-color: hsl(235, 45%, 61%);
 }
 
 .playText{
@@ -203,6 +280,10 @@ h4{
 
 }
 
+.studyLayer2:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
 .studyText{
   margin: 2rem;
 }
@@ -244,6 +325,10 @@ h4{
 
 }
 
+.exerciseLayer2:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
 .exerciseText{
   margin: 2rem;
 }
@@ -283,6 +368,10 @@ h4{
   width: 16rem;
   border-radius: 1rem;
 
+}
+
+.socialLayer2:hover {
+  background-color: hsl(235, 45%, 61%);
 }
 
 .socialText{
@@ -327,6 +416,10 @@ h4{
 
 }
 
+.selfCareLayer2:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
 .selfCareText{
   margin: 2rem;
 }
@@ -351,9 +444,12 @@ h4{
     
   }
 
+  .cardTextSpacing{
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
   
   .jeremyLayer1 {
-    background-color: hsl(195, 74%, 62%);
     height: 10rem;
     width: 22rem;
     border-radius: 1rem;
@@ -370,21 +466,62 @@ h4{
   }
 
   .jeremyLogo{
-    display: flex;
-    flex-direction: row;
-    align-items: center; /* Vertically center the content */
-    gap: 1rem; /* Add some space between the image and text */
+    height: 79px; 
+    width: 79px;
+    border-radius: 50%; /* Make the image circular */
+    border: 4px solid white;
+    margin-left: 2rem;
+    margin-top: 2rem;
   }
 
-  .jeremyLogo img {
-    height: 4rem; /* Adjust the image size as needed */
-    width: 4rem;
-  }
   
   .jeremyText{
     margin-left: 8rem ;
-    margin-top: -3rem;
+    margin-top: -4rem;
+    text-wrap: nowrap;
   }
+
+  .jeremyText p{
+    margin: 0;
+  }
+  
+  .workText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .ellipses{
+    margin-left: 14rem;
+  }
+
+  .studyEllipses{
+    margin-left: 13rem;
+  }
+  
+  .exerciseEllipses{
+    margin-left: 12rem;
+  }
+  
+
+  .socialEllipses{
+    margin-left: 13rem;
+  }
+  
+  .selfCareEllipses{
+    margin-left: 12rem;
+  }
+  
+  .container{
+    margin: 1rem;
+    
+  }
+  
+  .selfCareContainer{
+    display: flex;
+    margin: 1rem;
+    text-wrap: nowrap;
+  }
+  
 
   .timeframe-button{
     margin: 0;
@@ -512,6 +649,7 @@ h4{
   h4{
     text-align: right;
     margin-top: -2rem;
+    margin-right: 2rem;
   }
 
 
