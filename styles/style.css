@@ -5,21 +5,22 @@ body {
 
 }
 
-p{
+p {
   font-size: 14px;
   font-family: "Rubik Semi Bold";
   color: hsl(236, 100%, 87%);
-  
+
 }
 
-span{
+span {
   font-size: 18px;
   font-family: "Rubik Semi Bold";
 }
 
-h4{
+h4 {
   font-size: 16px;
-  color: hsl(236, 100%, 87%);}
+  color: hsl(236, 100%, 87%);
+}
 
 @font-face {
   font-family: "Rubik";
@@ -42,7 +43,7 @@ h4{
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr auto auto auto auto auto 1fr;
   gap: 2rem;
-  
+
 }
 
 .timeframe-button {
@@ -62,7 +63,7 @@ h4{
   font-weight: bold;
 }
 
-.ellipsesBtn{
+.ellipsesBtn {
   background: none;
   border: none;
   cursor: pointer;
@@ -70,7 +71,7 @@ h4{
   fill: hsl(235, 45%, 61%);
 }
 
-.ellipsesBtn:hover{
+.ellipsesBtn:hover {
   fill: white;
 }
 
@@ -85,16 +86,17 @@ h4{
   grid-row: 2 / span 3;
 }
 
-.jeremyLogo{
-  height: 79px; 
+.jeremyLogo {
+  height: 79px;
   width: 79px;
-  border-radius: 50%; /* Make the image circular */
+  border-radius: 50%;
+  /* Make the image circular */
   border: 4px solid white;
   margin-left: 2rem;
   margin-top: 2rem;
 }
 
-.jeremyText{
+.jeremyText {
   margin: 2rem;
 }
 
@@ -148,7 +150,7 @@ h4{
   background-color: hsl(235, 45%, 61%);
 }
 
-.workText{
+.workText {
   margin: 2rem;
   display: flex;
   justify-content: space-between;
@@ -156,45 +158,45 @@ h4{
   flex-direction: column
 }
 
-.ellipses{
+.ellipses {
   margin-left: 8rem;
 }
 
 
-.exerciseEllipses{
+.exerciseEllipses {
   margin-left: 6rem;
 }
 
-.studyEllipses{
+.studyEllipses {
   margin-left: 8rem;
 }
 
-.socialEllipses{
+.socialEllipses {
   margin-left: 8rem;
 }
 
-.selfCareEllipses{
+.selfCareEllipses {
   margin-left: 8rem;
 }
 
 
 
-.selfCareeEllipses{
+.selfCareeEllipses {
   left: 1rem;
   flex: 0%;
 }
 
-.container{
+.container {
   margin: 1rem;
 }
 
-.selfCareContainer{
+.selfCareContainer {
   display: flex;
   margin: 1rem;
   text-wrap: nowrap;
 }
 
-.cardTextSpacing{
+.cardTextSpacing {
   margin-top: 1rem;
   font-size: 4rem;
 }
@@ -242,7 +244,7 @@ h4{
   background-color: hsl(235, 45%, 61%);
 }
 
-.playText{
+.playText {
   margin: 2rem;
 }
 
@@ -290,7 +292,7 @@ h4{
   background-color: hsl(235, 45%, 61%);
 }
 
-.studyText{
+.studyText {
   margin: 2rem;
 }
 
@@ -335,7 +337,7 @@ h4{
   background-color: hsl(235, 45%, 61%);
 }
 
-.exerciseText{
+.exerciseText {
   margin: 2rem;
 }
 
@@ -380,7 +382,7 @@ h4{
   background-color: hsl(235, 45%, 61%);
 }
 
-.socialText{
+.socialText {
   margin: 2rem;
 }
 
@@ -426,7 +428,7 @@ h4{
   background-color: hsl(235, 45%, 61%);
 }
 
-.selfCareText{
+.selfCareText {
   margin: 2rem;
 }
 
@@ -447,14 +449,14 @@ h4{
     grid-template-rows: repeat(7, auto);
     grid-template-columns: 1fr;
     gap: 2rem;
-    
+
   }
 
-  .cardTextSpacing{
+  .cardTextSpacing {
     margin-top: 1rem;
     font-size: 2rem;
   }
-  
+
   .jeremyLayer1 {
     height: 10rem;
     width: 22rem;
@@ -462,80 +464,85 @@ h4{
     flex-direction: row;
   }
 
-  .btnrow{
+  .btnrow {
     display: flex;
     flex-direction: row;
-    gap: 10px; /* Optional: adds space between buttons */
-    justify-content: space-evenly; /* Optional: centers buttons horizontally */
-    align-items: center; /* Optional: centers buttons vertically */
+    gap: 10px;
+    /* Optional: adds space between buttons */
+    justify-content: space-evenly;
+    /* Optional: centers buttons horizontally */
+    align-items: center;
+    /* Optional: centers buttons vertically */
     margin-top: 1rem;
   }
 
-  .jeremyLogo{
-    height: 79px; 
+  .jeremyLogo {
+    height: 79px;
     width: 79px;
-    border-radius: 50%; /* Make the image circular */
+    border-radius: 50%;
+    /* Make the image circular */
     border: 4px solid white;
     margin-left: 2rem;
     margin-top: 2rem;
   }
 
-  
-  .jeremyText{
-    margin-left: 8rem ;
+
+  .jeremyText {
+    margin-left: 8rem;
     margin-top: -4rem;
     text-wrap: nowrap;
   }
 
-  .jeremyText p{
+  .jeremyText p {
     margin: 0;
   }
-  
+
   .workText {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-  .ellipses{
+  }
+
+  .ellipses {
     margin-left: 14rem;
   }
 
-  .studyEllipses{
+  .studyEllipses {
     margin-left: 13rem;
   }
-  
-  .exerciseEllipses{
-    margin-left: 12rem;
-  }
-  
 
-  .socialEllipses{
-    margin-left: 13rem;
-  }
-  
-  .selfCareEllipses{
+  .exerciseEllipses {
     margin-left: 12rem;
   }
-  
-  .container{
-    margin: 1rem;
-    
+
+
+  .socialEllipses {
+    margin-left: 13rem;
   }
-  
-  .selfCareContainer{
+
+  .selfCareEllipses {
+    margin-left: 12rem;
+  }
+
+  .container {
+    margin: 1rem;
+
+  }
+
+  .selfCareContainer {
     display: flex;
     margin: 1rem;
     text-wrap: nowrap;
   }
-  
 
-  .timeframe-button{
+
+  .timeframe-button {
     margin: 0;
   }
 
   .jeremyLayer2 {
     grid-column: 1;
-    grid-row: 2 ;
+    grid-row: 2;
     background-color: hsl(235, 46%, 20%);
     height: 14rem;
     width: 22rem;
@@ -548,37 +555,43 @@ h4{
     grid-row: 1;
     margin: 2rem;
   }
+
   .work {
     grid-column: 1;
     grid-row: 2;
     display: flex;
     justify-content: center;
-  
+
   }
+
   .play {
     grid-column: 1;
     grid-row: 3;
     display: flex;
     justify-content: center;
   }
+
   .study {
     grid-column: 1;
     grid-row: 4;
     display: flex;
     justify-content: center;
   }
+
   .exercise {
     grid-column: 1;
     grid-row: 5;
     display: flex;
     justify-content: center;
   }
+
   .social {
     grid-column: 1;
     grid-row: 6;
     display: flex;
     justify-content: center;
   }
+
   .self-care {
     grid-column: 1;
     grid-row: 7;
@@ -589,70 +602,74 @@ h4{
   .workLayer1 {
     height: 11rem;
     width: 22rem;
-    
+
   }
-  
+
   .workLayer2 {
     height: 8rem;
     width: 22rem;
-  
+
   }
+
   .playLayer1 {
     height: 11rem;
     width: 22rem;
   }
-  
+
   .playLayer2 {
     height: 8rem;
     width: 22rem;
   }
+
   .studyLayer1 {
     height: 11rem;
     width: 22rem;
-  
+
   }
-  
+
   .studyLayer2 {
     height: 8rem;
     width: 22rem;
-  
+
   }
+
   .exerciseLayer1 {
     height: 11rem;
     width: 22rem;
-  
+
   }
-  
+
   .exerciseLayer2 {
     height: 8rem;
     width: 22rem;
-  
+
   }
+
   .socialLayer1 {
     height: 11rem;
     width: 22rem;
-  
+
   }
-  
+
   .socialLayer2 {
     height: 8rem;
     width: 22rem;
-  
+
   }
-  
+
   .selfCareLayer1 {
     height: 11rem;
     width: 22rem;
-  
+
   }
-  
+
   .selfCareLayer2 {
     height: 8rem;
     width: 22rem;
-  
+
   }
 
-  h4{
+  h4 {
     text-align: right;
     margin-top: -2rem;
     margin-right: 2rem;
@@ -660,6 +677,6 @@ h4{
 
 
 
-    
-  
+
+
 }
