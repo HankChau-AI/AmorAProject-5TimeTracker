@@ -59,6 +59,7 @@ h4{
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
+  font-weight: bold;
 }
 
 .ellipsesBtn{
@@ -66,12 +67,14 @@ h4{
   border: none;
   cursor: pointer;
   outline: none;
-  
+  fill: hsl(235, 45%, 61%);
 }
 
 .ellipsesBtn:hover{
-  color: white;
+  fill: white;
 }
+
+
 
 .timeframe-button:hover {
   color: white;
@@ -157,6 +160,7 @@ h4{
   margin-left: 8rem;
 }
 
+
 .exerciseEllipses{
   margin-left: 6rem;
 }
@@ -172,6 +176,8 @@ h4{
 .selfCareEllipses{
   margin-left: 8rem;
 }
+
+
 
 .selfCareeEllipses{
   left: 1rem;
