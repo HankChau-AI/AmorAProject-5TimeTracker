@@ -1,0 +1,507 @@
+body {
+  background-color: hsl(226, 43%, 10%);
+  color: white;
+  font-family: "Rubik Light";
+
+}
+
+p{
+  font-size: 18px;
+  font-family: "Rubik Semi Bold";
+}
+
+h4{
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(/fonts/Rubik-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Rubik Light";
+  src: url(/fonts/Rubik-Light.ttf);
+}
+
+@font-face {
+  font-family: "Rubik Semi Bold";
+  src: url(/fonts/Rubik-SemiBold.ttf);
+}
+
+
+.contentGrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr auto auto auto auto auto 1fr;
+  gap: 2rem;
+  
+}
+
+.timeframe-button {
+  background: none;
+  border: none;
+  color: #93C4FD;
+  /* Adjust color as needed */
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  /* Remove outline on focus */
+  text-align: start;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Jeremy {
+  grid-column: 2;
+  grid-row: 2 / span 3;
+}
+
+.jeremyLogo{
+  height: 79px; 
+  width: 79px;
+  border-color: white;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.jeremyText{
+  margin: 2rem;
+}
+
+.jeremyLayer1 {
+  background-color: hsl(195, 74%, 62%);
+  height: 22rem;
+  width: 15rem;
+  border-radius: 1rem;
+}
+
+.jeremyLayer2 {
+  grid-column: 2;
+  grid-row: 2 / span 3;
+  background-color: hsl(235, 46%, 20%);
+  height: 32rem;
+  width: 15rem;
+  border-radius: 1rem;
+  align-self: end;
+}
+
+.work {
+  grid-column: 3;
+  grid-row: 2;
+
+}
+
+.workLayer1 {
+  position: relative;
+  background-color: hsl(15, 100%, 70%);
+  display: flex;
+  flex-direction: column-reverse;
+  height: 15rem;
+  width: 16rem;
+  border-radius: 1.1rem;
+  overflow: hidden;
+
+
+
+}
+
+.workLayer2 {
+  position: relative;
+  background-color: hsl(235, 46%, 20%);
+  height: 12rem;
+  width: 16rem;
+  border-radius: 1rem;
+
+}
+
+.workText{
+  margin: 2rem;
+}
+
+.workIcon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 79px;
+  height: 79px;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+
+.play {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.playLayer1 {
+  position: relative;
+  background-color: hsl(195, 74%, 62%);
+  display: flex;
+  flex-direction: column-reverse;
+  height: 15rem;
+  width: 16rem;
+  border-radius: 1.1rem;
+  overflow: hidden;
+
+}
+
+.playLayer2 {
+  position: relative;
+  background-color: hsl(235, 46%, 20%);
+  height: 12rem;
+  width: 16rem;
+  border-radius: 1rem;
+
+}
+
+.playText{
+  margin: 2rem;
+}
+
+.playIcon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 79px;
+  height: 79px;
+  margin-right: 15px;
+  margin-top: -5px;
+  /* display: flex;
+  justify-content: flex-end; */
+}
+
+
+.study {
+  grid-column: 5;
+  grid-row: 2;
+}
+
+.studyLayer1 {
+  position: relative;
+  background-color: hsl(348, 100%, 68%);
+  display: flex;
+  flex-direction: column-reverse;
+  height: 15rem;
+  width: 16rem;
+  border-radius: 1.1rem;
+  overflow: hidden;
+
+}
+
+.studyLayer2 {
+  position: relative;
+  background-color: hsl(235, 46%, 20%);
+  height: 12rem;
+  width: 16rem;
+  border-radius: 1rem;
+
+}
+
+.studyText{
+  margin: 2rem;
+}
+
+.studyIcon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 79px;
+  height: 79px;
+  margin-right: 15px;
+  margin-top: -5px;
+}
+
+.exercise {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.exerciseLayer1 {
+  position: relative;
+  background-color: hsl(145, 58%, 55%);
+  display: flex;
+  flex-direction: column-reverse;
+  height: 15rem;
+  width: 16rem;
+  border-radius: 1.1rem;
+  overflow: hidden;
+
+}
+
+.exerciseLayer2 {
+  position: relative;
+  background-color: hsl(235, 46%, 20%);
+  height: 12rem;
+  width: 16rem;
+  border-radius: 1rem;
+
+}
+
+.exerciseText{
+  margin: 2rem;
+}
+
+.exerciseIcon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 79px;
+  height: 79px;
+  margin-right: 15px;
+  margin-top: -5px;
+}
+
+.social {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.socialLayer1 {
+  position: relative;
+  background-color: hsl(264, 64%, 52%);
+  display: flex;
+  flex-direction: column-reverse;
+  height: 15rem;
+  width: 16rem;
+  border-radius: 1.1rem;
+  overflow: hidden;
+
+}
+
+.socialLayer2 {
+  position: relative;
+  background-color: hsl(235, 46%, 20%);
+  height: 12rem;
+  width: 16rem;
+  border-radius: 1rem;
+
+}
+
+.socialText{
+  margin: 2rem;
+}
+
+.socialIcon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 79px;
+  height: 79px;
+  margin-right: 15px;
+  margin-top: -15px;
+}
+
+
+.self-care {
+  grid-column: 5;
+  grid-row: 3;
+}
+
+.selfCareLayer1 {
+  position: relative;
+  background-color: hsl(43, 84%, 65%);
+  display: flex;
+  flex-direction: column-reverse;
+  height: 15rem;
+  width: 16rem;
+  border-radius: 1.1rem;
+  overflow: hidden;
+
+}
+
+.selfCareLayer2 {
+  position: relative;
+  background-color: hsl(235, 46%, 20%);
+  height: 12rem;
+  width: 16rem;
+  border-radius: 1rem;
+
+}
+
+.selfCareText{
+  margin: 2rem;
+}
+
+.selfCareIcon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 79px;
+  height: 79px;
+  margin-right: 10px;
+  margin-top: -15px;
+}
+
+@media screen and (max-width: 375px) {
+  .contentGrid {
+    display: grid;
+    grid-template-rows: repeat(7, auto);
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    
+  }
+
+  
+  .jeremyLayer1 {
+    background-color: hsl(195, 74%, 62%);
+    height: 10rem;
+    width: 22rem;
+    border-radius: 1rem;
+    flex-direction: row;
+  }
+
+  .jeremyLogo{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .timeframe-button{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .jeremyLayer2 {
+    grid-column: 1;
+    grid-row: 2 ;
+    background-color: hsl(235, 46%, 20%);
+    height: 20rem;
+    width: 22rem;
+    border-radius: 1rem;
+    align-self: end;
+  }
+
+  .Jeremy {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 2rem;
+  }
+  .work {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .play {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+  }
+  .study {
+    grid-column: 1;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+  }
+  .exercise {
+    grid-column: 1;
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+  }
+  .social {
+    grid-column: 1;
+    grid-row: 6;
+    display: flex;
+    justify-content: center;
+  }
+  .self-care {
+    grid-column: 1;
+    grid-row: 7;
+    display: flex;
+    justify-content: center;
+  }
+
+  .workLayer1 {
+    height: 11rem;
+    width: 22rem;
+    
+  }
+  
+  .workLayer2 {
+    height: 8rem;
+    width: 22rem;
+  
+  }
+  .playLayer1 {
+    height: 11rem;
+    width: 22rem;
+  }
+  
+  .playLayer2 {
+    height: 8rem;
+    width: 22rem;
+  }
+  .studyLayer1 {
+    height: 11rem;
+    width: 22rem;
+  
+  }
+  
+  .studyLayer2 {
+    height: 8rem;
+    width: 22rem;
+  
+  }
+  .exerciseLayer1 {
+    height: 11rem;
+    width: 22rem;
+  
+  }
+  
+  .exerciseLayer2 {
+    height: 8rem;
+    width: 22rem;
+  
+  }
+  .socialLayer1 {
+    height: 11rem;
+    width: 22rem;
+  
+  }
+  
+  .socialLayer2 {
+    height: 8rem;
+    width: 22rem;
+  
+  }
+  
+  .selfCareLayer1 {
+    height: 11rem;
+    width: 22rem;
+  
+  }
+  
+  .selfCareLayer2 {
+    height: 8rem;
+    width: 22rem;
+  
+  }
+
+  h4{
+    text-align: right;
+    margin-top: -2rem;
+  }
+
+  .jeremyText{
+    margin-left: 8rem ;
+    margin-top: -3rem;
+  }
+
+  .jeremyLogo{
+    margin-bottom: -3rem;
+  }
+    
+  
+}
